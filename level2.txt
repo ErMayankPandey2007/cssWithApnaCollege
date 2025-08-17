@@ -1,0 +1,92 @@
+1.BOX MODEL IN CSS---
+
+A.Height
+By default , it sets the content area height of the element
+
+div{
+height:50px;
+}
+
+B.Width----
+
+By default, it sets the content area Width of the element
+
+div{
+    width:50px;
+}
+
+C.Border--
+
+Used to set an element's Border
+
+border-width:2px;
+border-style:solid/dotted/dashed;
+border-color:black;
+
+D. Border==Shorthand
+
+border:2px solid red;
+
+E. Border-Radius
+Visiused to round corners of an element's outer border edge.
+
+border-radius:10px;
+border:radius:50%;
+
+F.Padding--
+
+it is used tp set the gap between content and border 
+
+example---
+.padding-left
+.padding-right
+.padding-top
+.padding-bottom
+
+G.Padding Shorthand--
+
+example--
+
+padding:1px 2px 3px 4px;
+        top|right|bottom|left->clockwise
+
+
+H.Margin--
+it is used to create space between two boxes or div
+
+.margin-right
+.margin-left
+.margin-top
+.margin-bottom
+
+I.Margin Shorthand--
+
+example--
+margin:1px 2px 3px 4px;
+      top|right|bottom|left->clockwise
+
+1.Display Properties----
+
+A-display :inline/block/inline-block/none
+
+.inline-Take only the space required by the element.(No margin/padding)
+
+.block-Takes full space available in Width
+
+.inline-block-Similar to inline but we can set margin & padding
+
+.none-To remove element from document
+
+B-Visibility--
+
+visibility:hidden;
+
+NOTE:- When visibility is set to none, space for thr element is reserved But for display set to none, no space is reserved or blocked for the element
+
+3.Alpha Channel=
+
+opacity(0to1)
+
+.RGBA
+color:rgba(255,0,0,0.5)
+color:rgba(255,0,0,1)
