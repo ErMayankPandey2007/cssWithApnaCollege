@@ -1,0 +1,147 @@
+CSS-Tutorial By Apna College---------
+LEVEL-01
+
+1.CSS means Cascading Style Sheet
+
+It Is a language that is used to describe the style of a document.
+
+2. BASIC SYNTAX TO READ CSS--
+
+A. selector--
+      h1{
+        color:red;
+      }
+
+      -here h1 {} is a selector 
+      -and color is property
+      -and red is value .
+
+3. INCLUDING THREE TYPE TO WRITE CSS ---
+
+A. Inline CSS----This css use in the particular tag to change their style.
+
+B.External CSS---this css use in a separate documents and linking it with HTML file. using stylesheet--<link rel="stylesheet" href="fileName.css">
+
+C.<style>Tag--it is used as same as External css but it use in head tag. 
+
+<style>
+---code--
+</style>
+
+4. COLOR PROPERTY=-----
+
+to used to set the color of the foreground(layout design of front side like text,button,link etc.)
+
+color:red;
+color:pink;
+color:blue;
+color:green;
+
+
+5.BACKGROUND COLOR PROPERTY=-----
+
+Used to set the color of BACKGROUND
+
+background-color:red;
+background-color:pink;
+background-color:blue;
+background-color:cyan;
+
+6.COLOR SYSTEM
+
+A.RGB COLOR SYSTEM-----
+
+color:rgb(255,0,0);
+color:rgb(0, 255,0);
+
+B.HEX(Hexadecimal)
+color:#ff0000;(red color code in Hexadecimal color system)
+color:#00ff00;(green color code in hexadecimal color system)
+
+7. SELECTORS-----
+
+A. Universal Selectors---
+This selector is use to change the format of the whole web page by using *{}
+
+Example===
+*{
+  color:red;
+}
+
+B. Element Selectors---
+this selector is use to change only a particular Element
+
+example---
+
+h1{
+
+  color:red;
+}
+
+C.ID selector----
+
+this selector is use by creating a specific id the we can do change in this by using id name 
+
+example---
+
+#head{
+
+  color:red;
+}
+
+D.Class Selector---
+
+class selector also used as id selector to giving class name to specific elements
+
+Example---
+
+.h1{
+  color:red;
+}
+
+7.Text Properties-----
+
+A.text-align
+
+text-align:left/right/center; it is used to set position of text.
+
+B.Text-Decoration---
+
+text-decoration:underline/overline/line-through; it is use to decorate the text.
+
+C.Font-Weight---
+
+font-weight:normal/bold/bolder/lighter;
+
+font-weight:100-900;
+
+D.Font-Family---
+it is use to giving font style.
+
+font-family:arial;
+
+font-family:arial,robot;
+
+E.Line-height--
+it is used to set the height of the line 
+
+example- line-height:2px;
+example- line-height:normal;
+
+F.Text-transform--
+it is used to transform the text into uppercase,lowercase,capitalization,none
+
+example---
+
+text-transform:uppercase/lowercase/capitalize/none;
+
+8.UNITS IN CSS----
+this is used to measure the length width of our elements.
+
+A. Absolute
+
+pixels(px)
+96px=1inch=2.54cm;
+
+example- font-size:20px;
+

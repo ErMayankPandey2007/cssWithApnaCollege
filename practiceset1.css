@@ -1,0 +1,17 @@
+/* Question 1 */
+#box{
+    background-color: blue;
+    color:wheat;
+}
+
+/* Question 2 */
+
+.heading{
+    color: red;
+}
+
+button{
+    background-color: green;
+    position: inherit;
+       
+}
