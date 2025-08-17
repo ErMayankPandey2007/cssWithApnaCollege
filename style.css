@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykzoZeCE0p7LeuyHnLYCdPP2jju9d5PaMeA&s');
+    background-size: cover;
+}
+/* units in css */
+
+.box1 {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+
+.box2 {
+    height: 50px;
+    /* width: 100%; */
+    width: 30px;
+    /* width: 30%; */
+    /* margin-left: 10px; */
+    margin-left: 20%;
+    background-color: red;
+    font-size: 1em;
+}
+
+/* position property */
+
+div {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1 {
+    /* the static property means no any property applied on the div */
+    position: static;
+    top: 20px;
+    bottom: 20px;
+    left: 80px;
+    right: 10px;
+    background-color: red;
+}
+
+#box2 {
+    /* the relative property means change the position from top,left.right,bottom. */
+
+    position: relative;
+    top: 20px;
+    /* content take distance from top to bottom */
+    bottom: 20px;
+    /* content take distance from bottom to top */
+    left: 20px;
+    /* content take distance from left to right */
+
+    right: 30px;
+    /* content take distance from right to left */
+background-color: green;
+}
+
+#box3{
+    /* the absolute property means the it restrict the static  then apply all property on it*/
+position: sticky;
+/* position: absolute; */
+top: 0px;
+background-color: black;
+color: white;
+left: 40px;
+}
+
+#box4{
+    position: fixed;
+    top: 0;
+}
+
+/* background images */
+
+#div1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykzoZeCE0p7LeuyHnLYCdPP2jju9d5PaMeA&s');
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    background-size: auto;
+}
+

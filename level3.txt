@@ -1,0 +1,56 @@
+1.UNIT IN CSS
+
+A.Relative--
+
+B.%=it is often used to define a size as relative to an element's parent object.
+
+example==
+width:100%;
+margin-right:30%;
+
+C.em= Font size of the parent,in the case of the typographical properties like font-size,and
+font size of the element itself, in the case of other properties like width.
+
+ NOTE:-The em means that the font size increases double to the parent font size 
+ if parent font size is 100px , if we used 1em for child font size then it means that 100px X 1, and 2em means 100px X 2.
+
+D.(Root Em)rem--
+Font size of the root element
+
+NOTE+ it take the font size according to the html tag we know that the html tag content which are written in body tag they are by default 16px font size if we use 5rem for any content then it take 16 X unit_in rem=result.
+
+E.VH(viewPort Height)--
+
+vh:relative to 1% viewPort Height----it take height of the browser display height in percentage
+
+F. vW(viewPort width)==
+
+vw:relative to 1% viewPort width---it take weight of the browser display weight in percentage
+
+
+2.Position Property------
+
+The position CSS property sets how an element is positioned in a document
+
+A.statics--default position (The top,right,bottom,left,and z-index property have no effect)
+
+B.relative--element is relative to itself.(The top,bottom,right,left,and z-index will work)
+
+C.absolute--positioned relative to its closest positioned ancestor.(removed from)
+
+D.z-index--it decide the stack level of the element
+overlapping element with a larger z-index cover those with a smaller one.
+
+z-index:auto(0)
+
+z-index:1/2/....
+
+z-index:-1/-2/.... 
+
+3.Background Image Property-----
+
+A.background-image:url('image_path')->it is ude to set a image in the background.
+
+B.Background Size--
+
+syntax:-background-size:cover/contain/auto;
